@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply scroll-smooth antialiased;
+}
+
+body {
+  @apply font-sans font-medium bg-cgreen text-white selection:bg-cyellow selection:text-[#513C2F];
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-[10px] h-2
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-neutral-600
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-cyellow rounded-full
+}
+
+.MPwidget {
+	@apply !w-full !max-w-xs !mx-auto !font-sans !bg-transparent !border-0 !shadow-none !m-0
+}
+
+.MPheader, .MPfooter {
+	@apply !bg-transparent !pb-0
+}
+
+.MPheader .logo {
+	@apply !hidden
+}
+
+.MPheader .title {
+	@apply !p-0
+}
+
+.MPheader .title a {
+	@apply !text-[#441A05] !font-zodiak !font-bold !text-lg !not-italic
+}
+
+.MPtimetable .daterow {
+	@apply !font-sans !font-medium
+}
+
+.MPtimetable tr {
+	@apply !bg-transparent border-b border-b-[#441A05] last-of-type:border-b-0 first-of-type:border-b-0
+}
+
+.MPtimetable tr td {
+	@apply first-of-type:text-left !font-zodiak !font-bold last-of-type:text-white last-of-type:text-right !text-[17px] pb-3
+}
+
+.MPfooter {
+	@apply !hidden
+}
+
+.title {
+	@apply text-3xl lg:text-4xl text-neutral-50 font-zodiak font-extrabold !p-0
+}
+
+.button {
+	@apply inline-block py-3 px-8 bg-coklatGelap hover:bg-coklatGelap/90 duration-300 font-semibold tracking-wide
+}
+
+.swiper-pagination-bullet {
+	@apply !w-[14px] !h-[14px] !bg-[#258577]
+}
+
+.swiper-pagination-bullet-active {
+	@apply !bg-[#A6795C]
+}
