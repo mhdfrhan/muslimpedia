@@ -12,4 +12,4 @@ Buka file index.html, lalu buka menggunakan extension live server, atau klik dua
 
 ## Demo
 
-Website dapat di akses di <a href="">Digital Health</a>
+Website dapat di akses di <a href="https://muslim-pedia.vercel.app/">MUSLIMPEDIA</a>
