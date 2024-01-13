@@ -12,8 +12,4 @@ Buka file index.html, lalu buka menggunakan extension live server, atau klik dua
 
 ## Demo
 
-<<<<<<< HEAD
 Website dapat di akses di <a href="https://muslim-pedia.vercel.app/">MUSLIMPEDIA</a>
-=======
-Website dapat di akses di <a href="https://muslim-pedia.vercel.app/">MUSLIMPEDIA</a>
->>>>>>> 329990ff9d73f9105af9b01e7559df5cb866dee3
